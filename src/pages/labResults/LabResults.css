@@ -1,0 +1,23 @@
+.lab-results-list {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.lab-results {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.lab-results-container {
+  display: flex !important;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}

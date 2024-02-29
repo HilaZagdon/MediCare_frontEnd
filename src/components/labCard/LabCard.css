@@ -1,0 +1,67 @@
+.lab-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 50rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.lab-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.test-value {
+  margin-bottom: 20px;
+}
+
+.scale {
+  margin-top: 2rem;
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background-color: #f0f0f0;
+}
+
+.scale-mark {
+  position: absolute;
+  width: 1px;
+  height: 5px;
+  background-color: #999;
+}
+
+.min-mark {
+  left: 0;
+  height: 10px;
+}
+
+.max-mark {
+  right: 0;
+  height: 10px;
+}
+
+.indicator {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: blue;
+  transform: translateX(-50%);
+}
+
+.indicator.off-scale {
+  background-color: red;
+}
+
+.value {
+  text-align: center;
+  position: absolute;
+  top: -20px; /* Adjust this value as needed */
+  transform: translateX(-50%);
+}
+
+.labelsMinMax {
+  display: flex;
+  justify-content: space-between;
+}
